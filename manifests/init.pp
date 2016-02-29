@@ -76,3 +76,5 @@ url [/dev/null]:${project_id}"
   }
 
 }
+
+include gce_compute_master
