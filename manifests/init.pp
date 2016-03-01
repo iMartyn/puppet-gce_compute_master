@@ -26,7 +26,7 @@ class gce_compute_master {
   ini_setting { 'puppet-conf-main-server':
     section => 'main',
     setting => 'server',
-    value   => "puppet-master.${dns_domain}",
+    value   => "puppetmaster.${dns_domain}",
   }
   ->
   ini_setting { 'puppet-conf-master-autosign':
